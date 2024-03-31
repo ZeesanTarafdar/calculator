@@ -1,0 +1,87 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+
+    color: orange;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.calculator{
+   height: 65vh;
+   width: 12vw;
+   border: 0.5rem solid rgb(4, 4, 4);
+   padding: 2.0rem;
+   padding-top: 6.00rem;
+   border-radius: 1.6rem;
+   background: transparent;
+   box-shadow: -0.8rem -0.8rem 1.5rem rgb(255, 255, 255, 0.3);
+}
+input{
+    width: 6.30vw;
+    border: 0.2rem solid white;
+    border-radius: 1.0rem;
+    padding: 1.5rem;
+    margin: 1.6rem;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    box-shadow: -0.8rem 0.8rem 1.5rem rgb(255, 255, 255, 0.1);
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    font-size: 3.8rem;
+}
+input::placeholder{
+    height: 30vh;
+    color: white;
+    font-size: 4.8rem;
+}
+button{
+   height: 6.0vh;
+   width: 1.68vw;
+   margin: 0.2rem;
+   justify-content: center;
+   border: 0.2rem solid white;
+   border-radius: 50%;
+   background: transparent;
+   color: white;
+   font-size: 1.0rem;
+   box-shadow: -0.8rem -0.8rem 1.5rem rgb(255, 255, 255, 0.1);
+   cursor: pointer;
+
+}
+.button{
+    padding-top: 1.0rem;
+    padding-left: 1.0rem;
+}
+.btn{
+    border: 0.1rem solid #0a0a0a;
+    background-color: orange;
+    color: white;
+}
+.operator{
+    color:  rgb(21, 246, 21);
+}
+@media(max-width: 980px){
+    html{
+        font-size: 35%;
+    }
+}
+
+@media(min-width:300px){
+    html{
+        font-size: 30%;
+    }
+}
