@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0rem;
     padding: 0rem;
 }
@@ -21,17 +21,18 @@ body{
     background: linear-gradient(45deg, #0a0a0a, #3a4452);
 }
 .calculator{
-   height: 65vh;
-   width: 12vw;
+   height: 62vh;
+   width: 60vw;
    border: 0.5rem solid rgb(4, 4, 4);
    padding: 2.0rem;
-   padding-top: 6.00rem;
+   padding-top: 6.0rem;
    border-radius: 1.6rem;
    background: transparent;
    box-shadow: -0.8rem -0.8rem 1.5rem rgb(255, 255, 255, 0.3);
 }
 input{
-    width: 6.30vw;
+    height: 7Vh;
+    width: 20vw;
     border: 0.2rem solid white;
     border-radius: 1.0rem;
     padding: 1.5rem;
@@ -41,30 +42,109 @@ input{
     text-align: right;
     cursor: pointer;
     color: white;
-    font-size: 3.8rem;
+    font-size: 5.8rem;
 }
 input::placeholder{
-    height: 30vh;
+    height: 35vh;
     color: white;
-    font-size: 4.8rem;
+    font-size: 6.8rem;
 }
 button{
-   height: 6.0vh;
-   width: 1.68vw;
-   margin: 0.2rem;
+   height: 8.0vh;
+   width: 13.5vw;
+   margin: 0.1rem;
    justify-content: center;
    border: 0.2rem solid white;
    border-radius: 50%;
    background: transparent;
    color: white;
-   font-size: 1.0rem;
+   font-size: 3.7rem;
    box-shadow: -0.8rem -0.8rem 1.5rem rgb(255, 255, 255, 0.1);
    cursor: pointer;
 
 }
 .button{
-    padding-top: 1.0rem;
-    padding-left: 1.0rem;
+    padding-top: 1.6rem;
+    padding-left: 1.5rem;
+}
+.btn{
+    border: 0.1rem solid #0a0a0a;
+    background-color: orange;
+    color: white;
+}
+.operator{
+    color:  rgb(21, 246, 21);
+}  */
+
+
+
+    
+
+@media( min-width:320px){
+    html{
+        font-size: 30%;
+    }
+    h1{
+
+    color: orange;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.calculator{
+   height: 76vh;
+   width: 59vw;
+   border: 0.5rem solid rgb(4, 4, 4);
+   padding: 2.0rem;
+   padding-top: 6.0rem;
+   border-radius: 1.6rem;
+   background: transparent;
+   box-shadow: -0.8rem -0.8rem 1.5rem rgb(255, 255, 255, 0.3);
+}
+input{
+    height: 7Vh;
+    width: 50.30vw;
+    border: 0.2rem solid white;
+    border-radius: 1.0rem;
+    padding: 1.5rem;
+    margin: 1.6rem;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    box-shadow: -0.8rem 0.8rem 1.5rem rgb(255, 255, 255, 0.1);
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    font-size: 5.8rem;
+}
+input::placeholder{
+    height: 35vh;
+    color: white;
+    font-size: 6.8rem;
+}
+button{
+   height: 8.0vh;
+   width: 13vw;
+   margin: 0.1rem;
+   justify-content: center;
+   border: 0.2rem solid white;
+   border-radius: 50%;
+   background: transparent;
+   color: white;
+   font-size: 3.7rem;
+   box-shadow: -0.8rem -0.8rem 1.5rem rgb(255, 255, 255, 0.1);
+   cursor: pointer;
+
+}
+.button{
+    padding-top: 1.6rem;
+    padding-left: 1.5rem;
 }
 .btn{
     border: 0.1rem solid #0a0a0a;
@@ -74,14 +154,5 @@ button{
 .operator{
     color:  rgb(21, 246, 21);
 }
-@media(max-width: 980px){
-    html{
-        font-size: 35%;
-    }
-}
 
-@media(min-width:300px){
-    html{
-        font-size: 30%;
-    }
 }
